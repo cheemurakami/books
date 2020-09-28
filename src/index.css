@@ -7,10 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.2em;
   font-family: Kongtext;
-  
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.books{
+  border: 1px black solid;
+  border-radius: 30px;
+  padding: 12px;
+  margin-bottom: 12px;
 }
