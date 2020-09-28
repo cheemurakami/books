@@ -1,4 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Background
+
+Books are cool! Please make an app where we can see the top 10 NYT best seller books, and clicking on book should allow you to see more detail.
+
+## Data
+
+We've got the following data
+
+- `books.json` - A file that contains the top 15 books from the NYT API.
+
+## Requirements
+
+- Display only the top 10 books in a list in your browser
+- Should show the title and the author, and image.
+- If you click on a book you should be able to see more detail (Description, publisher, or anything else you want)
+
+
 
 ## Available Scripts
 
