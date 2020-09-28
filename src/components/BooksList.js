@@ -1,11 +1,28 @@
-import React from 'react'
+import React from "react";
+import { Container } from "react-bootstrap";
+
+import booksData from "../books.json";
 
 const BooksList = () => {
-  return (
-    <div>
-      <h1>BooksList</h1>
-    </div>
-  )
-}
+  const booksObj = booksData.results.books;
 
-export default BooksList
+  return (
+    <React.Fragment>
+      <Container>
+        <h1>BooksList</h1>
+        {booksObj.map((book) => {
+          return (
+            <h2 key={book.rank}>
+              {book.rank}: {book.title}
+            </h2>
+          );
+        })}
+        {/* <button type="button" className="nes-btn is-primary">
+          Button
+        </button> */}
+      </Container>
+    </React.Fragment>
+  );
+};
+
+export default BooksList;
