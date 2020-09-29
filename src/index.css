@@ -25,3 +25,11 @@ code {
 .badge-text{
   font-size: 8px;
 }
+.message-list > .message.-left {
+  align-self: flex-start;
+}
+.message-list > .message {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

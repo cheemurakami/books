@@ -9,7 +9,19 @@ const BooksList = () => {
 
   return (
     <React.Fragment>
-      <h3>Top 10 Books</h3>
+      
+      <section className="message-list">
+          
+          <section className="message -left">
+            <i className="nes-mario"></i>
+            <div className="nes-balloon from-left">
+              <p>Top 10 books</p>
+            </div>
+          </section>
+
+        </section>
+     
+    
       {booksObjtop10.map((book) => {
         return (
           <Link

@@ -7,14 +7,6 @@ const Book = () => {
   const { id } = useParams();
   const book = booksData.results.books[id - 1];
   const buyLinks = book.buy_links;
-  const badgeClasses = [
-    "is-dark",
-    "is-primary",
-    "is-success",
-    "is-warning",
-    "is-error",
-  ];
-  console.log(buyLinks);
 
   return (
     <React.Fragment>
@@ -37,7 +29,7 @@ const Book = () => {
           <Row>
             {buyLinks.map((link) => {
               return (
-                <span className="mr-1">
+                <span className="mr-1" key={link.name}>
                   <a
                     href={link.url}
                     className="nes-badge"
