@@ -5,9 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: 0.2em;
   font-family: Kongtext;
-  text-align: center;
 }
 
 code {
@@ -19,4 +17,11 @@ code {
   border-radius: 30px;
   padding: 12px;
   margin-bottom: 12px;
+  text-align: center;
+}
+.img{
+  margin: auto;
+}
+.badge-text{
+  font-size: 8px;
 }
